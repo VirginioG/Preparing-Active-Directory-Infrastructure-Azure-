@@ -33,7 +33,11 @@ In this tutorial, you'll set up a Domain Controller (DC) and a Client Virtual Ma
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![Part1](https://github.com/user-attachments/assets/ede94fbe-ff92-4361-bbd3-1c703e86619c)
+
+
+
 </p>
 <p>
 
@@ -55,7 +59,12 @@ In this tutorial, you'll set up a Domain Controller (DC) and a Client Virtual Ma
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+![Part2](https://github.com/user-attachments/assets/639d7d28-8fbb-49b3-a9b6-c403163b4c42)
+
+
+
 </p>
 <p>
 -Create Client VM (Client-1):
