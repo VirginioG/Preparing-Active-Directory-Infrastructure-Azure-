@@ -36,7 +36,21 @@ In this tutorial, you'll set up a Domain Controller (DC) and a Client Virtual Ma
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+-Create a Resource Group in Azure for organizing your resources.
+
+-Set up a Virtual Network (VNet) and a Subnet to connect the VMs.
+
+-Create Domain Controller VM (DC-1):
+
+-Create a Windows Server 2022 VM named DC-1.
+
+-Use labuser as the username and Cyberlab123! as the password.
+
+-After creating the VM, set the DC-1’s NIC private IP to static to ensure it doesn’t change.
+
+-Log into DC-1 and temporarily disable the Windows Firewall for testing connectivity.
+
 </p>
 <br />
 
@@ -44,6 +58,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-Create Client VM (Client-1):
+
+-Create a Windows 10 VM named Client-1.
+
+-Use labuser as the username and Cyberlab123! as the password.
+
+-Attach Client-1 to the same region and VNet as DC-1.
+
+-Configure DNS and Test Connectivity:
+
+-Set Client-1’s DNS settings to DC-1’s private IP.
+
+-Restart Client-1 from the Azure Portal.
+
+-Log into Client-1 and attempt to ping DC-1’s private IP address, ensuring the ping is successful.
+
+-Open PowerShell on Client-1 and run ipconfig /all. Verify that the DNS settings show DC-1’s private IP.
 </p>
 <br />
