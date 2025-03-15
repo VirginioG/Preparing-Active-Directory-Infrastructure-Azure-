@@ -8,7 +8,7 @@ In this tutorial, you'll set up a Domain Controller (DC) and a Client Virtual Ma
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+- ### [Active Directory: Preparing AD Infrastructure in Azure](https://youtu.be/Zhov1V7CAog?si=A7f6oxeH30r2nXgH)
 
 <h2>Environments and Technologies Used</h2>
 
