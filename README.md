@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Active Directory: Preparing AD Infrastructure in Azure</h1>
 In this tutorial, you'll set up a Domain Controller (DC) and a Client Virtual Machine (VM) in Azure, where the Domain Controller serves as the DNS server for the Client VM. You'll also configure basic network settings, Active Directory, and ensure proper DNS resolution for seamless communication between both machines.<br />
 
 
